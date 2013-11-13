@@ -25,7 +25,7 @@ In a browser, hit `http://localhost:4567/8080` for example and you will get an i
 
 ![300x200](http://puu.sh/5hAi6.png)
 
-You can get fancier http://localhost:8080/300x200/ff0066/fff` by specifying hex 
+You can get fancier `http://localhost:8080/300x200/ff0066/fff` by specifying hex 
 color for background and foreground to get something like
 
 ![300x200 Background](http://puu.sh/5hAog.png)
@@ -56,7 +56,7 @@ It requires [ImageMagick](http://www.imagemagick.org/)
 Copyright
 =========
 
-Copyright (c) 2013 Johnny Halife and [Mural.ly Dev Team](http://twitter.com/mural), 
+Copyright (c) 2013 [Johnny Halife](http://twitter.com/johnnyhalife) and [Mural.ly Dev Team](http://twitter.com/mural), 
 released under the MIT license.
 
 The included Droid Sans font is licensed under the Apache License, online at [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0).
