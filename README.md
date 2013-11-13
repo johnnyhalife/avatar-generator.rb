@@ -21,24 +21,24 @@ and it's Heroku deployment ready!
 Usage
 ======
 
-In a browser, hit `http://localhost:4567/8080` for example and you will get an image like
+In a browser, hit `http://localhost:8080/300x200` for example and you will get an image like
 
-![300x200](http://puu.sh/5hAi6.png)
+![300x200](http://avatar-generator.herokuapp.com/300x200)
 
 You can get fancier `http://localhost:8080/300x200/ff0066/fff` by specifying hex 
 color for background and foreground to get something like
 
-![300x200 Background](http://puu.sh/5hAog.png)
+![300x200 Background](http://avatar-generator.herokuapp.com/300x200/ff0066/fff)
 
 Want to get like Gmail's new default avatar with initials, you can do 
 `http://localhost:8080/120x120/ff0066/fff?text=johnny%20halife`
 
-![120x120 Initials Mode](http://puu.sh/5hAth.png)
+![120x120 Initials Mode](http://avatar-generator.herokuapp.com/120x120/ff0066/fff?text=johnny%20halife)
 
 Want the full text get like Gmail's new default avatar with initials, you can do 
 `http://localhost:8080/300x200/ff0066/fff?text=Johnny%20Halife&mode=full`
 
-![120x120 Full Mode](http://puu.sh/5hAAG.png)
+![120x120 Full Mode](http://avatar-generator.herokuapp.com/300x200/ff0066/fff?text=Johnny%20Halife&mode=full)
 
 Want GIF or JPG instead? Try with the custom format!
 
