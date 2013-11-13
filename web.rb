@@ -1,9 +1,11 @@
 require 'sinatra'
 require 'RMagick'
 require 'rvg/rvg'
+require 'redcarpet'
 
 get '/' do
-  "<p>Welcome to fakeimage.</p><p>Please see the README (specifically the 'Use' section) at <a href='http://github.com/xxx/fakeimage'>http://github.com/xxx/fakeimage</a> for usage info so I don't have a chance to let one of the copies get out of date.</p><p>Example: <img src='/243x350.gif?color=darkorchid2&textcolor=!B9AF55' /></p><p>Code: <code>&lt;img src='http://fakeimage.heroku.com/243x350.gif?color=darkorchid2&textcolor=!B9AF55' /&gt;</code>"
+  markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, :autolink => true, :space_after_headers => true)  
+  markdown.render(File.read('./README.md'))
 end
 
 # matches up-to /{0:size}/{2:background}/{3:foreground}.{4:format}

@@ -4,7 +4,7 @@ Initials Avatar Generator
 A small Sinatra app influenced by http://dummyimage.com, and the original source code 
 from [XXX's Fake Image](https://github.com/xxx/fakeimage) but written in Ruby.
 	
-Try it online at [http://fakeimage.heroku.com](http://fakeimage.heroku.com)
+Try it online at [http://avatar-generator.herokuapp.com/200x200](http://avatar-generator.herokuapp.com)
 
 Installation
 ============
